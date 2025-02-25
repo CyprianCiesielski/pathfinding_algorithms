@@ -1,7 +1,3 @@
-class Node():
-    def __init__(self, parent):
-        self.parent = parent
-    
 def DFS(graph, start, end):
     stack = [(start, [start])]  
     visited = set()
